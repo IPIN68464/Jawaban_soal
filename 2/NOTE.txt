@@ -1,0 +1,10 @@
+---super user--
+id user = 12345
+nama user = root
+pass = root
+
+
+---user---
+id user = 34232
+nama user = hejin
+pass = root
