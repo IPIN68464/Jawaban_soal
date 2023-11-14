@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)$ apps/core/App.php?url=$1 [L] 
