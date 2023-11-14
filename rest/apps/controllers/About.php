@@ -1,7 +1,10 @@
 <?php
-class About{
+include '../core/controller.php';
+class About extends Controller {
 		public static function index(){
-			echo 'controller about fungsi index';
+			parent::view("../templates/Header/header");
+			parent::view('../views/About/index');
+			parent::view("../templates/Footer/footer");
 		}
 
 }
